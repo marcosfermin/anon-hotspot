@@ -224,8 +224,8 @@ cat > /etc/hostapd/hostapd.conf << EOL
 # This is the name of the WiFi interface we configured above
 interface=wlp3s0b1
 
-# Use the brcmsmac driver with the brcmfmac driver
-driver=brcmsmac
+# Use the bcma-pci-bridge driver with the brcmfmac driver
+driver=bcma-pci-bridge
 
 # This is the name of the network
 ssid=$pissid
